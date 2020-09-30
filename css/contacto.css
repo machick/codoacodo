@@ -1,0 +1,20 @@
+body{
+    background-image: url("../img/fondo2.jpg");
+}
+
+
+
+.formulario{
+    display: flex;    
+    justify-content: center;
+    
+}
+form{
+    width: 60%;
+}
+input{
+    width: 100%;
+}
+p{
+    padding:0 1.5em ;
+}

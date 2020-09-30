@@ -1,0 +1,36 @@
+.cabecera h1{
+    animation-name: animacion;
+    animation-duration: 2s;    
+}
+.iconos{
+    animation-name: animacion2;    
+    animation-duration: 2s;   
+}
+@keyframes animacion {
+    0%{ 
+        margin-right: -100vw;
+        opacity: 0;          
+    }
+    50%{
+        opacity: .4;       
+               
+    }
+    100%{
+        margin-right: 0;
+        opacity: 1;       
+    }
+}
+@keyframes animacion2 {
+    0%{ 
+        margin-right: 40vw;
+        opacity: 0;          
+    }
+    50%{
+        opacity: .4;       
+               
+    }
+    100%{
+        margin-right: 0;
+        opacity: 1;       
+    }
+}
